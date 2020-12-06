@@ -1,4 +1,4 @@
-import { Parsed } from './types';
+import { Parsed } from '../types/parsed-passwords';
 
 export default function partOne(data: Parsed[]): number {
 	let valid = 0;

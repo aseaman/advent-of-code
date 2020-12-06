@@ -1,7 +1,7 @@
 import partOne from "./part-one";
 import partTwo from "./part-two";
 import { loadData } from "../util/file-helpers";
-import { Parsed } from "./types";
+import { Parsed } from "../types/parsed-passwords";
 
 export default function run(): void {
 	loadData("day02", "data").then((data) => {

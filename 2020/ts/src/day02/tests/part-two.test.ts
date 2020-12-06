@@ -1,6 +1,6 @@
 import partTwo from "../part-two";
 
-describe("Day Two", () => {
+describe("Day Two : Part Two", () => {
   it("should handle simple test case", () => {
     const testData = [
 			{
