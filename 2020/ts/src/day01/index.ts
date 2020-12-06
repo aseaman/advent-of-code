@@ -8,5 +8,6 @@ export default function run(): void {
 		console.group('Day One');
 		console.log('Part One: ', partOne(parsed));
 		console.log('Part Two: ', partTwo(parsed));
+		console.groupEnd();
 	})
 }
