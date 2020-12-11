@@ -2,8 +2,8 @@ import { Passport } from "../types/parsed";
 
 const REQUIRED_KEYS = ["byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"];
 
-export default function partOne(data: Passport[]): number {
-	let valid = 0;
+export default function partOne(data: Passport[]): Passport[] {
+	const valid = [];
 
 	data.forEach((passport) => {
 		let isValid = true;
@@ -13,7 +13,7 @@ export default function partOne(data: Passport[]): number {
 			}
 		});
 		if (isValid) {
-			valid++;
+			valid.push(passport);
 		}
 	});
 
